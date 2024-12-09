@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal Submission for Mobius Drones - Transportation.gov</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap">
+    <style>
+        /* General body and font styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Styling for header section */
+        .header {
+            background-color: #0d0b64;
+            color: white;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            text-align: left;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 9999;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding-left: 20px;
+        }
+
+        .header .logo {
+            height: 40px;
+            margin-right: 15px;
+        }
+
+        .header h1 {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .header p {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .container {
+            width: 70%;
+            margin: 30px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 100px;
+        }
+
+        h2 {
+            color: #003b49;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+            color: #003b49;
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0 20px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+        }
+
+        button {
+            background-color: #0d0b64;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 14px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #005f7f;
+        }
+
+        .footer {
+            background-color: #0d0b64;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 14px;
+            margin-top: 40px;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .file-upload {
+            background-color: #f9f9f9;
+            padding: 12px;
+            border-radius: 5px;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+        }
+
+        .file-upload input[type="file"] {
+            background-color: white;
+            padding: 8px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+  <div class="container-fluid header text-center py-4">
+    <div class="row align-items-center">
+        <div class="col-12 col-md-4">
+            <img src="Logo.svg" alt="U.S. Department of Transportation Logo" class="img-fluid logo">
+        </div>
+        <div class="col-12 col-md-8">
+            <h1 class="h3">Infrastructure Revolution 2025: Join the Vision</h1>
+            <p>From <strong>Pete Buttigieg's Office</strong> - U.S. Department of Transportation</p>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        <h2>We are excited to collaborate with you! Please submit your proposal below.</h2>
+        <form id="proposalForm" action="index2.html">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="companyName">Company Name</label>
+            <input type="text" id="companyName" name="companyName" required>
+
+            <label for="interest">Declare Your Interest</label>
+            <textarea id="interest" name="interest" required placeholder="Please describe your interest in this project."></textarea>
+
+            <label for="amount">Amount to be Paid:</label>
+            <em> Note:
+
+A payment of $15,000 is required to proceed with your proposal for the U.S. Department of Transportation (DOT) job as part of President Trump’s transformative infrastructure agenda. This payment is necessary for the following reasons:
+
+<strong> 1. Administrative and Processing Fees: </strong>
+This payment covers the costs associated with comprehensive administrative processes, including rigorous compliance checks, federal documentation, legal verifications, and approvals required to meet the standards of the DOT and federal government.
+
+<strong> 2. Registration and Accreditation Fee: </strong>
+A portion of the payment is allocated as a formal registration fee to solidify your company’s involvement in this exclusive initiative and to ensure alignment with federal guidelines for government contractors.
+
+<strong> 3. Commitment to Project Preparation: </strong>
+This payment demonstrates your company’s commitment to the transformational infrastructure agenda. It supports pre-contractual activities, such as securing project-specific resources, initiating preliminary site assessments, and conducting feasibility studies essential for efficient project execution.
+
+<strong> 4. Priority Positioning and Direct Collaboration: </strong>
+As one of only 12 companies selected for these historic projects, this payment ensures your company's privileged access to strategic planning sessions, priority assignment in project allocation, and streamlined communication with government agencies. <br>
+<br>
+<strong> If full payment cannot be made upfront, at least 70% ($10,500) must be paid to initiate the process. The remaining balance of $4,500 must be completed prior to final approval and project commencement. </strong></em>
+            <input type="number" id="amount" name="amount" required placeholder="Enter amount in USD">
+
+            <label for="timeline">Timeline for Completion</label>
+            <select id="timeline" name="timeline" required>
+                <option value="1-3 Months">1-3 Months</option>
+				<option value="3-6 Months">3-6 Months</option>
+				<option value="3-6 Months">3-6 Months</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <div class="file-upload">
+                <label for="businessDocs">Business Registration Document</label>
+                <input type="file" id="businessDocs" name="businessDocs" accept=".pdf,.doc,.docx,.jpg,.png" required>
+            </div>
+
+            <button type="submit">Submit Proposal</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>For any inquiries, please contact me:</p>
+        <p>Email: <a href="mailto:buttigiegpete801@gmail.com">buttigiegpete@transportation.gov</a></p>
+        <p>U.S. Department of Transportation, 1200 New Jersey Avenue SE, Washington, D.C. 20590</p>
+    </div>
+
+   <script>
+    // Form submission handler
+    document.getElementById('proposalForm').addEventListener('submit', function (event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        // Collect form data
+        let fullName = document.getElementById('fullName').value;
+        let email = document.getElementById('email').value;
+        let companyName = document.getElementById('companyName').value;
+        let interest = document.getElementById('interest').value;
+        let amount = document.getElementById('amount').value;
+        let timeline = document.getElementById('timeline').value;
+
+        // Collect uploaded files
+        let businessDocs = document.getElementById('businessDocs').files[0];
+
+        // Validate required fields
+        if (!fullName || !email || !companyName || !interest || !amount || !timeline || !businessDocs) {
+            alert("Please complete all fields and upload all required documents.");
+            return;
+        }
+
+        // Process form submission logic
+        alert("Form submitted successfully!");
+        document.getElementById('proposalForm').reset(); // Clear the form
+        window.location.href = "index2.html"; // Redirect to the next page
+    });
+</script>
+
+
+
+
+</body>
+</html>
